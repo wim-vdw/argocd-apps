@@ -1,1 +1,1 @@
-# ArgoCD application definitions
+# Argo CD application definitions
