@@ -1,2 +1,1 @@
-# argocd-apps
-ArgoCD application definitions
+# ArgoCD application definitions
