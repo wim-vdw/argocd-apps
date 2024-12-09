@@ -5,3 +5,4 @@ resources:
 - overlays/ingress-nginx
 - overlays/metallb
 - overlays/reloader
+- overlays/sealed-secrets
