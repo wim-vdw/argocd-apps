@@ -31,3 +31,12 @@ patches:
       value:
         selfHeal: true
         prune: true
+    - op: add
+      path: /spec
+      value:
+        ignoreDifferences:
+        - group: "apiextensions.k8s.io"
+          kind: CustomResourceDefinition
+          name: bgppeers.metallb.io
+          jsonPointers:
+          - /spec/conversion/webhook/clientConfig/caBundle
