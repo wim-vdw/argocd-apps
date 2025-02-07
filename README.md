@@ -17,3 +17,7 @@ Apply the Argo CD root-app in the `argocd` namespace:
 ```bash
 kubectl apply -f argocd-apps/seeding-root-app.yaml -n argocd
 ```
+
+## Example
+
+![App of Apps](app-of-apps.png)
