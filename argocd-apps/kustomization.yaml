@@ -6,4 +6,5 @@ resources:
 - overlays/metallb
 - overlays/reloader
 - overlays/sealed-secrets
+- overlays/cert-manager
 - overlays/test01
