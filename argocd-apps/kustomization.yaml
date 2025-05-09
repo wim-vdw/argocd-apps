@@ -7,5 +7,4 @@ resources:
 - overlays/reloader
 - overlays/sealed-secrets
 - overlays/cert-manager
-- overlays/argo-workflows
 - overlays/test01
