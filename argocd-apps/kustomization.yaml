@@ -8,3 +8,4 @@ resources:
 - overlays/sealed-secrets
 - overlays/cert-manager
 - overlays/test01
+- overlays/crossplane
