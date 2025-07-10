@@ -2,10 +2,11 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
+- overlays/cert-manager
+- overlays/crossplane
 - overlays/ingress-nginx
 - overlays/metallb
 - overlays/reloader
 - overlays/sealed-secrets
-- overlays/cert-manager
 - overlays/test01
-- overlays/crossplane
+- overlays/test02
