@@ -25,4 +25,4 @@ patches:
       value: argocd-k8s-resources/test02
     - op: replace
       path: /spec/destination/namespace
-      value: test02
+      value: crossplane-system
