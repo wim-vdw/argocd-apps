@@ -29,5 +29,5 @@ patches:
     - op: add
       path: /spec/syncPolicy/automated
       value:
-          selfHeal: true
-          prune: true
+        selfHeal: true
+        prune: true
