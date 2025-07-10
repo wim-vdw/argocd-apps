@@ -9,4 +9,4 @@ resources:
 - overlays/reloader
 - overlays/sealed-secrets
 - overlays/test01
-- overlays/test02
+- overlays/test02-crossplane-azure

@@ -10,7 +10,7 @@ patches:
   patch: |-
     - op: replace
       path: /metadata/name
-      value: test02
+      value: test02-crossplane-azure-crossplane-azure
     - op: replace
       path: /metadata/namespace
       value: test-apps
@@ -22,7 +22,7 @@ patches:
       value: tests
     - op: replace
       path: /spec/source/path
-      value: argocd-k8s-resources/test02
+      value: argocd-k8s-resources/test02-crossplane-azure
     - op: replace
       path: /spec/destination/namespace
-      value: test02
+      value: test02-crossplane-azure
