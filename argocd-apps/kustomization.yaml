@@ -5,6 +5,7 @@ resources:
 - overlays/cert-manager
 - overlays/crossplane
 - overlays/ingress-nginx
+- overlays/kyverno
 - overlays/metallb
 - overlays/reloader
 - overlays/sealed-secrets
