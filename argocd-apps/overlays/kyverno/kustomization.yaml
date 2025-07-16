@@ -31,3 +31,7 @@ patches:
       value:
         selfHeal: true
         prune: true
+    - op: add
+      path: /spec/syncPolicy/syncOptions
+      value:
+        ServerSideApply: true
