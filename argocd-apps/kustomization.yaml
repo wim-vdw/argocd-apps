@@ -3,7 +3,7 @@ kind: Kustomization
 
 resources:
 - overlays/cert-manager
-- overlays/crossplane
+#- overlays/crossplane
 - overlays/ingress-nginx
 #- overlays/kyverno
 - overlays/metallb
