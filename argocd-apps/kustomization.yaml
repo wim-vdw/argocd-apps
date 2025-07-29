@@ -6,7 +6,7 @@ resources:
 - overlays/crossplane
 - overlays/ingress-nginx
 #- overlays/kyverno
-#- overlays/keda
+- overlays/keda
 - overlays/metallb
 - overlays/reloader
 - overlays/sealed-secrets
