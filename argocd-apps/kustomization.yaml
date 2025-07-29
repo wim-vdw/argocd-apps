@@ -10,7 +10,7 @@ resources:
 - overlays/metallb
 - overlays/reloader
 - overlays/sealed-secrets
-- overlays/tailscale
+#- overlays/tailscale
 - overlays/test01
 - overlays/test02-crossplane-azure
 - overlays/test03-crossplane-aws
