@@ -26,3 +26,6 @@ patches:
     - op: replace
       path: /spec/destination/namespace
       value: test01
+    - op: add
+      path: /spec/syncPolicy/syncOptions/-
+      value: RespectIgnoreDifferences=true
