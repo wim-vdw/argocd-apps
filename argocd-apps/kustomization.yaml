@@ -12,5 +12,5 @@ resources:
 - overlays/sealed-secrets
 #- overlays/tailscale
 - overlays/test01
-- overlays/test02-crossplane-azure
-- overlays/test03-crossplane-aws
+#- overlays/test02-crossplane-azure
+#- overlays/test03-crossplane-aws
