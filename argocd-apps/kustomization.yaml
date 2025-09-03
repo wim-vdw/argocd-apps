@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
 - overlays/cert-manager
 - overlays/crossplane
+- overlays/external-secrets
 - overlays/ingress-nginx
 #- overlays/kyverno
 - overlays/keda
