@@ -10,7 +10,7 @@ patches:
   patch: |-
     - op: replace
       path: /metadata/name
-      value: actions-runner-controller
+      value: external-secrets
     - op: replace
       path: /metadata/namespace
       value: core-apps
@@ -22,12 +22,15 @@ patches:
       value: core-apps
     - op: replace
       path: /spec/source/path
-      value: argocd-k8s-resources/actions-runner-controller/overlays/prod
+      value: argocd-k8s-resources/external-secrets/overlays/prod
     - op: replace
       path: /spec/destination/namespace
-      value: actions-runner-system
+      value: external-secrets
     - op: add
       path: /spec/syncPolicy/automated
       value:
         selfHeal: true
         prune: true
+    - op: add
+      path: /spec/syncPolicy/syncOptions/-
+      value: "ServerSideApply=true"
