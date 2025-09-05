@@ -10,7 +10,7 @@ patches:
   patch: |-
     - op: replace
       path: /metadata/name
-      value: actions-runner-controller
+      value: cert-manager
     - op: replace
       path: /metadata/namespace
       value: core-apps
@@ -22,10 +22,10 @@ patches:
       value: core-apps
     - op: replace
       path: /spec/source/path
-      value: argocd-k8s-resources/actions-runner-controller/overlays/prod
+      value: argocd-k8s-resources/cert-manager/overlays/prod
     - op: replace
       path: /spec/destination/namespace
-      value: actions-runner-system
+      value: cert-manager
     - op: add
       path: /spec/syncPolicy/automated
       value:
