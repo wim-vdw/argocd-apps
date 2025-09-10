@@ -13,6 +13,7 @@ resources:
 - overlays/metallb
 - overlays/reloader
 - overlays/sealed-secrets
+- overlays/system-upgrade-controller
 #- overlays/tailscale
 - overlays/test01
 #- overlays/test02-crossplane-azure
