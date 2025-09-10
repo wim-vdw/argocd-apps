@@ -25,7 +25,7 @@ patches:
       value: argocd-k8s-resources/system-upgrade-controller/overlays/prod
     - op: replace
       path: /spec/destination/namespace
-      value: system-upgrade-controller
+      value: system-upgrade
     - op: add
       path: /spec/syncPolicy/automated
       value:
