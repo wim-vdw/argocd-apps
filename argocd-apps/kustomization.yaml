@@ -3,7 +3,7 @@ kind: Kustomization
 
 resources:
 - overlays/actions-runner-controller
-- overlays/arc-runner-set
+- overlays/arc-runner-sets
 - overlays/cert-manager
 #- overlays/crossplane
 - overlays/external-secrets
