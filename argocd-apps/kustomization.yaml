@@ -12,6 +12,7 @@ resources:
 - overlays/keda
 - overlays/longhorn
 - overlays/metallb
+- overlays/redis
 - overlays/reloader
 - overlays/sealed-secrets
 - overlays/system-upgrade-controller
