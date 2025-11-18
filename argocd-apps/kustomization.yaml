@@ -4,7 +4,7 @@ kind: Kustomization
 resources:
 #- overlays/actions-runner-controller
 #- overlays/arc-runner-sets
-- overlays/cert-manager
+#- overlays/cert-manager
 #- overlays/crossplane
 #- overlays/external-secrets
 - overlays/ingress-nginx
@@ -15,7 +15,7 @@ resources:
 - overlays/redis
 - overlays/reloader
 - overlays/sealed-secrets
-- overlays/system-upgrade-controller
+#- overlays/system-upgrade-controller
 - overlays/tailscale
 - overlays/test01
 #- overlays/test02-crossplane-azure
