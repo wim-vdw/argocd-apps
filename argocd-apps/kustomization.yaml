@@ -10,6 +10,7 @@ resources:
 - overlays/ingress-nginx
 #- overlays/kyverno
 - overlays/keda
+- overlays/kube-prometheus-stack
 - overlays/longhorn
 - overlays/metallb
 - overlays/redis
