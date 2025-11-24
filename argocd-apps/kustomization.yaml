@@ -5,7 +5,7 @@ resources:
 #- overlays/actions-runner-controller
 #- overlays/arc-runner-sets
 #- overlays/cert-manager
-#- overlays/crossplane
+- overlays/crossplane
 #- overlays/external-secrets
 - overlays/ingress-nginx
 #- overlays/kyverno
