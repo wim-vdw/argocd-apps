@@ -30,9 +30,6 @@ patches:
       path: /spec/syncPolicy/syncOptions/-
       value: RespectIgnoreDifferences=true
     - op: add
-      path: /spec/ignoreDifferences
-      value: []
-    - op: add
       path: /spec/ignoreDifferences/-
       value:
         group: "apps"
