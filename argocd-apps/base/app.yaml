@@ -15,14 +15,14 @@ spec:
     path: TO_OVERLAY
   destination:
     name: in-cluster
-#    namespace: TO_OVERLAY
+    namespace: TO_OVERLAY
   # https://argo-cd.readthedocs.io/en/stable/operator-manual/upgrading/2.14-3.0/#removing-default-ignores-of-preserveunknownfields-for-crd
   ignoreDifferences:
   - group: apiextensions.k8s.io
     kind: CustomResourceDefinition
     jsonPointers:
-    - /spec/preserveUnknownFields  
+    - /spec/preserveUnknownFields
   syncPolicy:
     syncOptions:
-#    - CreateNamespace=true
+    #- CreateNamespace=true
     - PruneLast=true
