@@ -23,9 +23,6 @@ patches:
     - op: replace
       path: /spec/source/path
       value: argocd-k8s-resources/keda/overlays/prod
-    - op: replace
-      path: /spec/destination/namespace
-      value: keda
     - op: add
       path: /spec/syncPolicy/automated
       value:
