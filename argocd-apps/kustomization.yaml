@@ -14,7 +14,7 @@ resources:
 #- overlays/longhorn
 #- overlays/metallb
 #- overlays/redis
-#- overlays/reloader
+- overlays/reloader
 #- overlays/sealed-secrets
 #- overlays/system-upgrade-controller
 #- overlays/tailscale
