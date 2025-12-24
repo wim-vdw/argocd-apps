@@ -23,6 +23,9 @@ patches:
     - op: replace
       path: /spec/source/path
       value: argocd-k8s-resources/reloader/overlays/prod
+    - op: replace
+      path: /spec/destination/namespace
+      value: reloader
     - op: add
       path: /spec/syncPolicy/automated
       value:
