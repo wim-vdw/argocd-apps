@@ -23,9 +23,6 @@ patches:
     - op: replace
       path: /spec/source/path
       value: argocd-k8s-resources/test01
-    - op: replace
-      path: /spec/destination/namespace
-      value: test01
     - op: add
       path: /spec/syncPolicy/syncOptions/-
       value: RespectIgnoreDifferences=true
