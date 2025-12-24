@@ -9,7 +9,7 @@ resources:
 #- overlays/external-secrets
 #- overlays/ingress-nginx
 #- overlays/kyverno
-- overlays/keda
+#- overlays/keda
 #- overlays/kube-prometheus-stack
 #- overlays/longhorn
 #- overlays/metallb
