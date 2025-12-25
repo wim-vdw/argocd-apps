@@ -11,7 +11,7 @@ resources:
 #- overlays/kyverno
 - overlays/keda
 #- overlays/kube-prometheus-stack
-#- overlays/longhorn
+- overlays/longhorn
 #- overlays/metallb
 #- overlays/redis
 - overlays/reloader
