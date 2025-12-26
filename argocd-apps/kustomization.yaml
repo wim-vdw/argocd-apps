@@ -13,7 +13,7 @@ resources:
 #- overlays/kube-prometheus-stack
 - overlays/longhorn
 #- overlays/metallb
-#- overlays/redis
+- overlays/redis
 - overlays/reloader
 #- overlays/sealed-secrets
 #- overlays/system-upgrade-controller
