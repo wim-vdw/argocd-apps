@@ -12,7 +12,7 @@ resources:
 - overlays/keda
 - overlays/longhorn
 #- overlays/metallb
-- overlays/monitoring
+#- overlays/monitoring
 - overlays/redis
 - overlays/reloader
 #- overlays/sealed-secrets
