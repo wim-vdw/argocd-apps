@@ -7,7 +7,7 @@ resources:
 #- overlays/cert-manager
 #- overlays/crossplane
 #- overlays/external-secrets
-- overlays/fluentbit
+#- overlays/fluentbit
 #- overlays/ingress-nginx
 #- overlays/kyverno
 #- overlays/keda
