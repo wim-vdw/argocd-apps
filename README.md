@@ -5,7 +5,7 @@ This pattern involves creating a root application that references other applicat
 them collectively.
 
 In the provided `seeding-root-app.yaml` file, the root-app is an example of the "app of apps" pattern. It defines a root
-application that manages other applications specified in the `argocd-apps` directory.
+application that manages other applications specified in the `manifests` directory.
 
 For more details on the "app of apps" pattern, refer to
 the [official documentation](https://argo-cd.readthedocs.io/en/latest/operator-manual/cluster-bootstrapping/).
@@ -23,7 +23,8 @@ To ensure separation of concerns three repositories are used to manage the Argo 
 Apply the Argo CD root-app in the `argocd` namespace:
 
 ```bash
-kubectl apply -f argocd-apps/seeding-root-app.yaml -n argocd
+cd manifests
+kubectl apply -f seeding-root-app.yaml -n argocd
 ```
 
 ## Example
