@@ -10,7 +10,7 @@ patches:
   patch: |-
     - op: replace
       path: /metadata/name
-      value: monitoring-loki-grafana
+      value: monitoring
     - op: replace
       path: /metadata/namespace
       value: core-apps
