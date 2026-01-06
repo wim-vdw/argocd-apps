@@ -22,7 +22,7 @@ patches:
       value: tests
     - op: replace
       path: /spec/source/path
-      value: argocd-k8s-resources/test01
+      value: manifests/test01
     - op: replace
       path: /spec/destination/namespace
       value: test01

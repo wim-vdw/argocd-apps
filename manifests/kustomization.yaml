@@ -11,7 +11,7 @@ resources:
 #- overlays/fluentbit
 #- overlays/ingress-nginx
 #- overlays/kyverno
-#- overlays/keda
+- overlays/keda
 - overlays/longhorn
 #- overlays/metallb
 - overlays/monitoring
@@ -20,6 +20,6 @@ resources:
 #- overlays/sealed-secrets
 #- overlays/system-upgrade-controller
 #- overlays/tailscale
-#- overlays/test01
+- overlays/test01
 #- overlays/test02-crossplane-azure
 #- overlays/test03-crossplane-aws
