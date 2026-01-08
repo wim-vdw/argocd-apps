@@ -9,7 +9,6 @@ resources:
 #- overlays/crossplane
 #- overlays/external-secrets
 #- overlays/fluentbit
-#- overlays/ingress-nginx
 #- overlays/kyverno
 - overlays/keda
 - overlays/longhorn
