@@ -22,7 +22,7 @@ patches:
       value: core-apps
     - op: replace
       path: /spec/source/path
-      value: argocd-k8s-resources/redis/overlays/prod
+      value: manifests/redis/overlays/prod
     - op: replace
       path: /spec/destination/namespace
       value: redis
