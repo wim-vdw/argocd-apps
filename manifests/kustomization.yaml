@@ -11,7 +11,7 @@ resources:
 - overlays/f5-nginx-ingress
 #- overlays/fluentbit
 #- overlays/kyverno
-- overlays/keda
+#- overlays/keda
 - overlays/longhorn
 - overlays/metallb
 - overlays/monitoring
