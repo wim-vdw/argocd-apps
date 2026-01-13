@@ -8,13 +8,13 @@ resources:
 #- overlays/cert-manager
 #- overlays/crossplane
 #- overlays/external-secrets
+- overlays/f5-nginx-ingress
 #- overlays/fluentbit
 #- overlays/kyverno
 - overlays/keda
 - overlays/longhorn
 - overlays/metallb
 - overlays/monitoring
-- overlays/nginx-ingress
 - overlays/redis
 - overlays/reloader
 #- overlays/sealed-secrets

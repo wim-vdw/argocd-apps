@@ -10,7 +10,7 @@ patches:
   patch: |-
     - op: replace
       path: /metadata/name
-      value: nginx-ingress
+      value: f5-nginx-ingress
     - op: replace
       path: /metadata/namespace
       value: core-apps
@@ -22,7 +22,7 @@ patches:
       value: core-apps
     - op: replace
       path: /spec/source/path
-      value: manifests/nginx-ingress/overlays/prod
+      value: manifests/f5-nginx-ingress/overlays/prod
     - op: replace
       path: /spec/destination/namespace
       value: nginx-ingress
