@@ -37,7 +37,7 @@ patches:
     - op: add
       path: /spec/ignoreDifferences/-
       value:
-      - group: ""
+        group: ""
         kind: Service
         jsonPointers:
         - /spec/ports/0/nodePort
