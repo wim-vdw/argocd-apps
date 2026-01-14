@@ -8,7 +8,7 @@ resources:
 #- overlays/cert-manager
 #- overlays/crossplane
 #- overlays/external-secrets
-- overlays/f5-nginx-ingress
+#- overlays/f5-nginx-ingress
 #- overlays/fluentbit
 #- overlays/kyverno
 #- overlays/keda
