@@ -40,5 +40,5 @@ patches:
         group: ""
         kind: Service
         jsonPointers:
-        - /spec/ports/0/nodePort
-        - /spec/ports/1/nodePort
+        - /spec/ports/0/nodePortx
+        - /spec/ports/1/nodePortx
