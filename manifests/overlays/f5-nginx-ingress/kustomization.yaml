@@ -47,3 +47,5 @@ patches:
       value:
         group: coordination.k8s.io
         kind: Lease
+        jqPathExpressions:
+        - .
