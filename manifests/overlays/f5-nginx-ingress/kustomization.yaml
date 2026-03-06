@@ -42,10 +42,3 @@ patches:
         jsonPointers:
         - /spec/ports/0/nodePort
         - /spec/ports/1/nodePort
-    - op: add
-      path: /spec/ignoreDifferences/-
-      value:
-        group: coordination.k8s.io
-        kind: Lease
-        jqPathExpressions:
-        - .
