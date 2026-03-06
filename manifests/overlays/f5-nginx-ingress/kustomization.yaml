@@ -47,4 +47,3 @@ patches:
       value:
         group: coordination.k8s.io
         kind: Lease
-        name: nginx-ingress-leader-election
