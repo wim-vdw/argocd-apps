@@ -4,7 +4,7 @@ kind: Kustomization
 resources:
 #- overlays/alloy
 #- overlays/actions-runner-controller
-- overlays/argo-workflows
+#- overlays/argo-workflows
 #- overlays/arc-runner-sets
 #- overlays/cert-manager
 #- overlays/crossplane
