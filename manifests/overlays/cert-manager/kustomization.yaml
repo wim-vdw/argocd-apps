@@ -22,7 +22,7 @@ patches:
       value: core-apps
     - op: replace
       path: /spec/source/path
-      value: argocd-k8s-resources/cert-manager/overlays/prod
+      value: manifests/cert-manager/overlays/prod
     - op: replace
       path: /spec/destination/namespace
       value: cert-manager
