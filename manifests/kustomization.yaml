@@ -6,7 +6,7 @@ resources:
 #- overlays/actions-runner-controller
 #- overlays/argo-workflows
 #- overlays/arc-runner-sets
-- overlays/cert-manager
+#- overlays/cert-manager
 #- overlays/crossplane
 #- overlays/external-secrets
 - overlays/f5-nginx-ingress
