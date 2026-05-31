@@ -12,7 +12,7 @@ resources:
 - overlays/f5-nginx-ingress
 #- overlays/fluentbit
 #- overlays/kyverno
-- overlays/kargo
+#- overlays/kargo
 #- overlays/keda
 - overlays/longhorn
 - overlays/metallb
