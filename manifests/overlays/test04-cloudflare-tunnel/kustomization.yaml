@@ -22,7 +22,7 @@ patches:
       value: tests
     - op: replace
       path: /spec/source/path
-      value: argocd-k8s-resources/test04-cloudflare-tunnel
+      value: manifests/test04-cloudflare-tunnel
     - op: replace
       path: /spec/destination/namespace
       value: test04
