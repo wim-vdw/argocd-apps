@@ -25,4 +25,5 @@ resources:
 - overlays/test01
 #- overlays/test02-crossplane-azure
 #- overlays/test03-crossplane-aws
+- overlays/test04-cloudflare-tunnel
 - overlays/traefik
